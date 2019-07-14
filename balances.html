@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/balance.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Balance</title>
+
+    <h1 class="t01">Balance</h1>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">💵Cartera</a>
+        <a href="#">🏛️Préstamos</a>
+        <a href="#">✉️Mensajes</a>
+        <a href="#">💬Chat</a>
+        <a href="productos.html">💎Productos</a>
+        <a href="#">⏳Tiempo de espera en sucursal</a>
+        <a href="#">⚙️Configuración</a>
+
+
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Menú</button>
+    </div>
+    <section id="loginbox">
+        <img src = "img/rickastley2.jpg" class="avatar">
+    </section>
+
+    <div class="d01">
+    </div>
+</head>
+<body>
+
+
+<div id="d02">
+    <h2>Buen día Sr Astley</h2>
+    <h3>Última conexión: 12/07/2019</h3>
+</div>
+<div class="d03">
+    <h3>Tu balance</h3>
+    <h2>$ 6,328.33</h2>
+</div>
+<div class="d04">
+    <h3> ✉ Mensajes</h3>
+</div>
+<div id="d05">
+    - $ 697 Compra en Amazon
+</div>
+<div id="d05">
+    - $ 47 Compra en Oxxo
+</div>
+<div id="d05">
+    - $ 1500 Adidas Antara
+</div>
+<div id="d05">
+    - $ 899 Sephora
+</div>
+<div class="movimientos">
+    <button>Ver más movimientos</button>
+</div>
+</body>
+<footer>
+    <div class="hecho">
+        <p>Hecho con amor en Ernst & Young 😍</p>
+    </div>
+</footer>
+<script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+    }
+</script>
+</html>
+
+</body>
+</html>

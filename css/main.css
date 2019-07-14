@@ -1,0 +1,65 @@
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+        width: 80%;
+        padding: 0;
+    }
+    .right {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:500px) {
+    .credit, .body, .h1, .p, #take{
+        width:100%;
+
+    }
+
+}
+body{
+    background-color:#FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+.credit{
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 100px;
+
+}
+
+
+#take{
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 250px;
+    margin-left: 2px;
+    width:100%;
+    background-color:black;
+    color: white;
+    border-radius: 8px;
+    padding: 14px 40px;
+    font-weight: bold;
+
+    font-family: 'Roboto', sans-serif;
+}
+#camera{
+    height: 28px;
+}
+
+h1{
+
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    margin-left: 15px;
+    text-align: center;
+    color: darkgray;
+}
+

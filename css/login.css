@@ -1,0 +1,57 @@
+body{
+    background-color:#FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding: 0;
+}
+#capture{
+
+}
+
+input{
+    height: 70px;
+    width: 650px;
+    margin-left: 150px;
+    padding-left: 20px;
+    font-size: 40px;
+    border:1px solid #e5e5e5;
+    border-radius: 20px;
+    box-shadow: 0px 3px 0px 0px #e5e5e5;
+}
+
+
+#box{
+    margin-top: -65px;
+    margin-left: 700px;
+}
+
+.cajero{
+    height: 60px;
+}
+
+#card{
+    margin-top: -65px;
+    margin-left: 700px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    margin-top: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+button{
+display: inline-block;
+text-align: center;
+font-size: 50px;
+margin-top: 250px;
+margin-left: 280px;
+width:40%;
+background-color:#DA0022;
+color: white;
+border-radius: 50px;
+padding: 14px 40px;
+font-weight: bold;
+
+}
